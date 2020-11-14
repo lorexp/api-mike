@@ -1,0 +1,21 @@
+{
+  "name": "api-lucas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lorexp/api-lucas.git",
+  "author": "lorexp <vinixp.vp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.6"
+  },
+  "scripts": {
+    "start": "nodemon"
+  }
+}
