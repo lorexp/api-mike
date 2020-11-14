@@ -1,5 +1,5 @@
-const Sequelize = require("sequelize");
-const moment = require("moment");
+const Sequelize = require('sequelize');
+const moment = require('moment');
 
 class Terminals extends Sequelize.Model {
   static init(sequelize) {
@@ -9,14 +9,6 @@ class Terminals extends Sequelize.Model {
           type: Sequelize.INTEGER,
           autoIncrement: true,
           primaryKey: true,
-        },
-        id_bus: {
-          type: Sequelize.INTEGER,
-          allowNull: false,
-        },
-        id_route: {
-          type: Sequelize.INTEGER,
-          allowNull: false,
         },
         latitude: {
           type: Sequelize.FLOAT(40, 6),
@@ -35,7 +27,7 @@ class Terminals extends Sequelize.Model {
         freezeTableName: true,
         timestamps: false,
         sequelize,
-        modelName: "locations",
+        modelName: 'locations',
       }
     );
 
